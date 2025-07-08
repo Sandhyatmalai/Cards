@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Flex cards</title>
+    <style>
+        .card{
+            background-color:lightskyblue;
+            border-radius: 50px;
+            box-shadow: 0 9px 10px rgb(red, green, blue)  ;     
+            padding: 50px;
+            background-image: linear-gradient(pink rgb(119, 27, 119));
+            width: 200px;
+            height: 200px;
+            text-align: center;
+        }
+        .card-container{
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card-container{
+            background-image: url(Pictures/nature.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container"style="border:5px solid red;">
+        <div class="card"style="background-color:rgba">
+            <h3>Card 1</h3>
+            <p>this is first card</p>
+        </div>
+        <div class="card">
+            <h3>Card 2</h3>
+            <p>this is second card</p>
+        </div>
+        <div class="card">
+            <h3>Card 3</h3>
+            <p>this is third card</p>
+        </div>
+     </div>
